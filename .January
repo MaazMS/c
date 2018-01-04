@@ -3,12 +3,12 @@
 void main()
 {
   int first_number,second_number,third_number;
-  clrscr()
+  clrscr();
   printf("enter the first number");
   scanf("%d",&first_number);
   printf("enter the second number");
   scanf("%d",&second_number);
   third_number=first_number+second_number;
-  printf("%d",third_number)
+  printf("%d",third_number);
   getch();
  }
