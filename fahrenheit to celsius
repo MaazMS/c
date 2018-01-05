@@ -1,0 +1,12 @@
+#include<stdio.h> 
+#include<conio.h>
+void main() 
+{ 
+    float clesius,fahrenheit; 
+    clrscr(); 
+    printf("enter the fahrenheit value");
+    scanf("%f",&fahrenheit); 
+    clesius=(fahrenheit-32)/1.8;
+    printf("%f",celsius); 
+    getch();
+ }   
