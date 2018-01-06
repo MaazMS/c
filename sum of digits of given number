@@ -1,0 +1,17 @@
+#iclude<stdio.h>
+#include<conio.h>
+void main()
+{
+       int number,remainder=0,sum=0;
+       clrscr(); 
+       printf("enter the number");
+       scanf("%d",&number);
+       while(number>0)
+       {
+              remainder=number%10;
+              number=number/10; 
+              sum=sum+remainder; 
+       }    
+       printf("%d",sum);
+       getch(); 
+ }
