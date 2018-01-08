@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+      int number,increase,sum;
+      clrscr();
+      printf("enter the number");
+      scanf("%d",&number);
+      while(increase<number)
+      {
+             increase=increase+1;
+             sum=sum+increase;
+             printf("%d",sum);
+       }
+       getch();
+}
