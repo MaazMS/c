@@ -10,7 +10,8 @@ void main()
       {
              increase=increase+1;
              sum=sum+increase;
-             printf("%d",sum);
+            
        }
+       printf("%d",sum);
        getch();
 }
