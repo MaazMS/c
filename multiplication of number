@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h> 
+{ 
+        int number,increase=1,multi;
+        clrscr();
+        printf("enter the number");
+        scanf("%d",&number); 
+        while(increase<=10)
+        {
+                  increase=number*increase; 
+                  increase=increase+1;
+                  printf("%d",increase);
+         } 
+         getch()
+}
