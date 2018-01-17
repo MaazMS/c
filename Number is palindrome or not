@@ -2,7 +2,7 @@
 #inclide<conio.h> 
 void main(void) 
 {
-      int number,sum=0,addition,remainder=0;
+      int number,sum=0,addition,remainder=0,increase=0;
       clrscr();
       printf("enter the number");
       scanf("%d",&number);
@@ -12,6 +12,7 @@ void main(void)
               remainder=number%10;
               number=number/10
               sum=sum*10+remainder;
+              increase=increase+1;
       }
       if(sum==addition)
              printf("number is palindrome");
