@@ -1,0 +1,18 @@
+#include<stdio.h> 
+#include<conio.h>
+void main()
+{
+     int number,increase=0,sum=0,remainder=0; 
+     clrscr();
+     printf("enter the number"); 
+     scanf("%d",&number");
+     while(number>0) 
+     {
+            remainder=number%10; 
+            number=number/10; 
+            sum=sum*10+remainder; 
+            inncrease=increase+1; 
+      } 
+      printf("%d",sum);
+      getch(); 
+ }
