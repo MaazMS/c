@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main(void) 
+{ 
+        char character,increase;
+        clrscr(); 
+        printf("enter the character"); 
+        scanf("%c",&character);
+        for(increase=65;increase<=90;)
+        {
+              printf("%c",character); 
+              increase=increase+1;
+        }
+        getch(); 
+  }    
+       
