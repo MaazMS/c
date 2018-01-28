@@ -2,16 +2,17 @@
 #include<conio.h>
 void main()
 {
-         int number,remainder=0,sum=0,add,increase=1;
+         int number,sum=0,add,increase=1;
          clrscr();
          printf("enter the number");
          sacnf("%d",&number); 
          add=number; 
          while(increase<number) 
          { 
-               remainder=number%increase;
-               if(number==0)
-               sum=sum+increase; 
+               if(number%increase==0)
+               {
+                    sum=sum+increase;
+               }
                increase=increase+1;
          } 
          if(sum==add)
