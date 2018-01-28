@@ -9,10 +9,10 @@ void main(void)
       if(number%2==0)
       {
               printf("number is even");
-     } 
-     else
-     {
+      } 
+      else
+      {
               printf("number is odd"); 
-     } 
+      } 
      getch(); 
  }
