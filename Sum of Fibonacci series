@@ -2,12 +2,12 @@
 #include<conio.h> 
 void main(void) 
 { 
-       int number,increase=3,first=0,second=1,third,sum=0; 
+       int number,increase=2,first=0,second=1,third,sum=1; 
        clrscr(); 
        prinrf("enter the number");
        scanf("%d",&number); 
-       printf("%d",first); 
-       printf("%d",second); 
+       
+
        while(number>0) 
        { 
              third=first+second; 
