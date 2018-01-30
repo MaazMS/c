@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+       float base,height,rectangle=0;
+       clrscr();
+       printf("enter the base value");
+       scanf("%f",&base);
+       printf("enter the height vlaue");
+       scanf("%f",&height);
+       rectangle=base * height ;
+       printf("%f",rectangle);
+       getch();
+}
