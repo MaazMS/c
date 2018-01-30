@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+       float pi=3.14,radius,circle=0;
+       clrscr();
+       printf("enter the radius");
+       scanf("%f",&radius);
+       circle=pi*radius*redius;
+       printf("%f",circle);
+       getch();
+}
