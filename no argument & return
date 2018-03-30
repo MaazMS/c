@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int fun();
+int main()
+{
+  int z;
+  clrscr();
+  z=fun();
+  printf("\n %d",z);
+  getch();
+}
+int fun()
+{
+  int no;
+  no=no+10;
+  return no;
+}
+/* output 
+20        8/
