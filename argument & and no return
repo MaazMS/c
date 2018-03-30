@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void fun(int a);
+void main();
+{
+  int a=20,b=10;
+  clrscr();
+  fun(a);
+  printf("\n %d"b;
+  getch();
+}
+void fun(int a)
+{
+  
+  int c=10;
+  c=c+a;
+  printf("\n %d",c);
+}
+/* output
+30
+10                                  */
