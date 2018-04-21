@@ -15,12 +15,12 @@ void main(void)
               increase=increase+1;
       }
       if(sum==addition)
-	{
+      {
              printf("number is palindrome");
       }
       else
-	{
+      {
              printf("number is not palindrome");
-	}
+      }
       getch();
 }
