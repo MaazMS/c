@@ -18,5 +18,4 @@ void main()
        t=a+b+c/3; 
        printf("%f",t);
        getch(); 
-
 }
