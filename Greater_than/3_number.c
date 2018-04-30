@@ -1,5 +1,5 @@
 #include<stdio.h>
-#inclide<conio.h>
+#include<conio.h>
 void main(void)
 // in this program to check which number is greater.
 // First number is check by second number and third number.
