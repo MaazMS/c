@@ -1,5 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
+// In this program to check which number is greater then in three numbers. 
+// There for check first number by second number and third number.
+// Then check second nimber by third number. 
+// if first number and second number is not great then the third number is greater.
 void main()
 {
         int a,b,c;
