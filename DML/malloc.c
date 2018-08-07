@@ -17,6 +17,7 @@ int  main()
 	{
 		printf("memory is  allocate");
 	}
+	return 0 ;
 }
 
 /*
