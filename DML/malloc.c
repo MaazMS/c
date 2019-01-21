@@ -1,5 +1,6 @@
 /*
  * The name "malloc()" stands for memory allocation.
+ * malloc() is u under <stdlib.h>
  * It  is used to dynamically allocate a single large block of memory with the specified size.
  * It returns a pointer of type void which can be cast into a pointer of any form.
  * Memory allocated by "malloc()" is  store garbage value when any input is not store in malloc() block .
