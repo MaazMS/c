@@ -7,7 +7,8 @@
 int main()
  {
    int index,number=6;
-   int block[5]={1,2,3,4,5,6};                     // warning: excess elements in array initializer
+   int block[5]={1,2,3,4,5,6};                     /* warning: excess elements in array initializer
+                                                          Declare the array variable*/
    
    printf("\n display array  the values \n ");
    for (index = 0; index < number; index++)
