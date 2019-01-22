@@ -5,16 +5,16 @@
 
  int main()
   {
-	 int block[5];                                                               //Declare the array variable 
+   int block[5];                                                               //Declare the array variable 
    int index,number;
    
    printf("\nEnter number  of elements which you want to append :");
-   scanf("%d", &number);                                                        // for size the array 
+   scanf("%d", &number);                                                         // for size the array 
 
    printf("\nEnter the values \n:");
    for (index = 0; index <= number; index++)
    {
-	   printf("enter the element of array %d\t",index);                           // print array block with index
+     printf("enter the element of array %d\t",index);                           // print array block with index
      scanf("%d", &block[index]);
    }
 
@@ -22,11 +22,8 @@
    for (index = 0; index <= number; index++)
    {
       printf("[%d] = %d\n", index, block[index]);
-
    }
-
-
-   return (0);
+return (0);
 }
 /*
 OUTPUT
@@ -45,5 +42,4 @@ display array  the values :
 [2] = 3
 [3] = 4
 [4] = 5
-  
- */
+*/
