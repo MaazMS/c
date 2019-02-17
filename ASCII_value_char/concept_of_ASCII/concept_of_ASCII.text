@@ -1,0 +1,19 @@
+Histort 
+
+ASCII was first developed and published in 1963 by the X3 committee, a part of the ASA (American Standards Association).
+The ASCII standard was first published as ASA X3.4-1963, with ten revisions of the standard being published between 1967 and 1986.
+
+Definition of ASCII 
+
+ASCII is standard for American Standard Code for Information Interexchange.
+It assigns letters, numbers, and other characters in the 256 slots available in the 8-bit code.
+The ASCII decimal (Dec) number is created from binary, which is the language of all computers.
+
+ASCII sections
+
+The ASCII table is divided into three different sections.
+
+1)  Non-printable, system codes between 0 and 31.
+2)  Lower ASCII, between 32 and 127. This table originates from the older, American systems, which worked on 7-bit character tables.
+3)  Higher ASCII, between 128 and 255. This portion is programmable; characters are based on the language of your operating system or 
+     program you are using. Foreign letters are also placed in this section.
