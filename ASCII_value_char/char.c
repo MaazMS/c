@@ -1,16 +1,22 @@
 #include<stdio.h>
-#include<conio.h>
-// if you enter any character in this program the program give the ASCII value of this character. 
-void main(void)
+
+
+int main(void)
 {
-  char ch;
-  clrscr();
-  printf("\t enter the character\t");
-  scanf("%d",&ch);
-  printf("\n%d\t");
-  getch();
+	char character;
+
+	printf(" enter the character\n");
+
+	scanf("%c",&character);
+	printf("%d - %c ",character,character);			// return ASCII value and character
+  
+  return 0 ;
 }
-/* output 
-  enter the character   a
-  97
-  */
+/*
+OUTPUT
+
+enter the character
+m
+109 - m 
+
+ */
