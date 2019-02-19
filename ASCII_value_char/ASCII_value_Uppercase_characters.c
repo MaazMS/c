@@ -5,8 +5,6 @@ int main(void)
 	
 	int number=65;
 
-	printf("enter the number\n");
-
 	for(number=65;number<=90;number++)
 	printf("%d - %c \n ",number,number);			// return  ASCII value number by their character .
 	
@@ -16,7 +14,6 @@ int main(void)
 /*
  OUTPUT
 
- enter the number
 65 - A 
  66 - B 
  67 - C 
