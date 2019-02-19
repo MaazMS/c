@@ -10,7 +10,7 @@ int main(void)
 	scanf("%c",&character);
 	printf("%d - %c ",character,character);			// return ASCII value and character
   
-  return 0 ;
+        return 0 ;
 }
 /*
 OUTPUT
