@@ -1,4 +1,4 @@
-
+// if use  scanf function is cut extra character after space and enter .
 
 #include<stdio.h>
 
