@@ -5,10 +5,11 @@
 int main()
 
 {
-	char string[10];     // Declaration of string using data type char and size defined by square bracket [] 
+	
+  char string[10];     // Declaration of string using data type char and size defined by square bracket [] 
   
   
-	printf("Enter the character for string");
+  printf("Enter the character for string");
 	
   scanf("%s",string);                                 // accept string 
 	
