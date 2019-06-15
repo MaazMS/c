@@ -6,7 +6,7 @@ int main()
 
   char string[90];
 
-	scanf("%[A-Z-a-z]",string);     // It accpect For number,small and big character Range.
+	scanf("%[A-Z-0-9-a-z]",string);     // It accpect For number,small and big character Range.
 
 	printf("%s",string);
 
