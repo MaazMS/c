@@ -1,2 +1,2 @@
 # C language
-This repository for learing all c rprogramming topic 
+ [Learing all c rprogramming topic in wiki](https://github.com/Maazil3861/c/wiki)
