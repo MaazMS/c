@@ -8,13 +8,10 @@ int main(void)
 	printf("%d - %c \n ",number,number);			// return  ASCII value number by their character .
 
 	return 0;
-
 }
-
 /*
  OUTPUT
-
-97 - a 
+ 97 - a 
  98 - b 
  99 - c 
  100 - d 
@@ -40,8 +37,4 @@ int main(void)
  120 - x 
  121 - y 
  122 - z 
- 
-
-*/
-
-*/
+ */
