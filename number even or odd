@@ -1,18 +1,21 @@
 #include<stdio.h> 
-#include<conio.h> 
+
 void main(void) 
 { 
-      number;
-      clrscr();
+      int number; 
+
       printf("enter the number");
-      scanf("%d",&number); 
+      scanf("%d",&number);  
+
       if(number%2==0)
       {
               printf("number is even");
-      } 
+      }
       else
       {
               printf("number is odd"); 
       } 
-     getch(); 
- }
+ } 
+ /*OUTPUT 
+enter the number3
+number is odd             */
