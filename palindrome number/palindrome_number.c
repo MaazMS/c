@@ -1,16 +1,17 @@
 #include<stdio.h>
-#inclide<conio.h> 
+ 
 void main(void) 
 {
       int number,sum=0,remainder=0,increase=0,addition;
-      clrscr();
+      
       printf("enter the number");
       scanf("%d",&number);
       addition=number; 
+      
       while(number>0) 
       {
               remainder=number%10;
-              number=number/10
+              number=number/10;
               sum=sum*10+remainder;
               increase=increase+1;
       }
@@ -22,5 +23,8 @@ void main(void)
       {
              printf("number is not palindrome");
       }
-      getch();
 }
+/*OUTPUT 
+enter the number121 
+number is palindrome
+*/
